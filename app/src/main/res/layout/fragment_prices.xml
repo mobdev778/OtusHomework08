@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/primary_color">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+                <FrameLayout
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/iv_prices_logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitCenter"
+                        app:tint="@color/secondary_color"
+                        android:transitionName="@string/transition_prices_logo"
+                        android:contentDescription="@string/transition_prices_logo"
+                        android:src="@drawable/baseline_calculate_24" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_prices_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_marginStart="@dimen/title_margin"
+                    android:layout_marginEnd="@dimen/title_margin"
+                    android:text="@string/prices_title"
+                    android:textColor="@color/secondary_color"
+                    android:textSize="@dimen/main_title_size"
+                    android:textAlignment="center"
+                    android:transitionName="@string/transition_prices_title"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <WebView
+        android:id="@+id/wv_prices"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

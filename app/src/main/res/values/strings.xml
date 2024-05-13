@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">HomeWork08</string>
+
+    <string name="splash_zhk_sarmat">ЖК САРМАТ</string>
+    <string name="splash_sarmat_logo">Логотип ЖК Сармат</string>
+
+    <string name="about_agent_title">Ваш куратор Евгения</string>
+    <string name="about_agent_phone">+7-(926)-000-0000</string>
+    <string name="about_agent_email">evg.sarmat@evg.sarmat.ru</string>
+    <string name="about_agent_tg">zheka.zheka.sarmat</string>
+    <string name="tour_title">3D-тур</string>
+    <string name="tour_url">https://жк-сармат-тур.рф/</string>
+
+    <string name="prices_title">Прайсы и расчеты</string>
+    <string name="prices_url">https://www.dropbox.com/sh/0dterrryp5aulpz/AACqYY7NJBIPdGWFSVw1QoWza/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D1%81%20%D0%BF%D0%BB%D0%B0%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0%D0%BC%D0%B8.pdf</string>
+
+    <string name="transition_sarmat_logo">iv_sarmat_logo</string>
+    <string name="transition_sarmat_title">tv_sarmat_title</string>
+    <string name="transition_about_agent_logo">iv_about_agent_logo</string>
+    <string name="transition_about_agent_title">tv_about_agent_title</string>
+    <string name="transition_tour_logo">iv_tour_logo</string>
+    <string name="transition_tour_title">tv_tour_title</string>
+    <string name="transition_prices_logo">iv_prices_logo</string>
+    <string name="transition_prices_title">tv_prices_title</string>
+</resources>
